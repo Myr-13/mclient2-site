@@ -1,0 +1,53 @@
+body
+{
+    margin: 0px;
+    background-color: #303030;
+}
+
+#macho-text
+{
+    margin-left: 25%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 48px;
+    text-shadow: 2px 2px 5px darkgreen;
+    color: green;
+}
+
+#content
+{
+    background-color: #4b4b4b;
+    height: 700px;
+}
+
+#news
+{
+    margin-left: 15%;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 32px;
+    color: pink;
+}
+
+#about
+{
+    margin-left: 15%;
+    padding-top: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 24px;
+    color: goldenrod;
+}
+
+#news-entry-omg
+{
+    margin-left: 15%;
+    font-size: 24px;
+    color: lightblue;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#news-entry
+{
+    margin-left: 15%;
+    font-size: 24px;
+    color: rgb(90, 125, 137);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
