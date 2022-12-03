@@ -1,53 +1,89 @@
 body
 {
-    margin: 0px;
-    background-color: #303030;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("https://img.freepik.com/premium-photo/white-background-watercolor-paper_88281-2127.jpg?w=2000"), linear-gradient(to right, #6DB3F2, #6DB3F2);
+	/* background: url("https://img.freepik.com/premium-photo/white-background-watercolor-paper_88281-2127.jpg?w=2000"), #303030; */
+}
+
+body::before
+{
+	background-color: rgba(50, 50, 50, 0.70);
 }
 
 #macho-text
 {
-    margin-left: 25%;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 48px;
-    text-shadow: 2px 2px 5px darkgreen;
-    color: green;
+	margin-left: 25%;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 48px;
+	text-shadow: 2px 2px 5px darkgreen;
+	color: green;
 }
 
 #content
 {
-    background-color: #4b4b4b;
-    height: 700px;
+	padding-top: 10px;
+	background-color: rgba(50, 50, 50, 0.70);
+	padding-bottom: 10px;
 }
 
 #news
 {
-    margin-left: 15%;
+	margin-left: 15%;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 32px;
+	color: pink;
+}
+
+#about
+{
+	margin-left: 15%;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 24px;
+	color: goldenrod;
+}
+
+#news-entry-omg
+{
+	margin-left: 15%;
+	font-size: 24px;
+	color: lightblue;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#news-entry
+{
+	margin-left: 15%;
+	font-size: 24px;
+	color: rgb(90, 125, 137);
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#features
+{
+	margin-left: 15%;
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 32px;
     color: pink;
 }
 
-#about
+#feature
 {
-    margin-left: 15%;
-    padding-top: 15px;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 24px;
-    color: goldenrod;
+	margin-left: 15%;
+	font-size: 24px;
+	color: rgb(151, 153, 245);
+	font-family: "Lucida Console", "Courier New", monospace;
 }
 
-#news-entry-omg
+#footer
 {
-    margin-left: 15%;
-    font-size: 24px;
-    color: lightblue;
-    font-family: "Lucida Console", "Courier New", monospace;
+	padding: 1%;
+	background-color: #131313;
 }
 
-#news-entry
+#foot-href
 {
-    margin-left: 15%;
-    font-size: 24px;
-    color: rgb(90, 125, 137);
-    font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 20px;
+	color: rgb(119, 119, 119);
+	font-family: "Lucida Console", "Courier New", monospace;
 }
