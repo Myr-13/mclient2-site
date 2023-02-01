@@ -1,0 +1,119 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #131313;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.header
+{
+	display: flex;
+}
+
+.macho-icon
+{
+	margin-top: 35px;
+	margin-left: 35px;
+	clip-path: circle();
+}
+
+.macho-header-text
+{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 24px;
+	color: #bfbfbf;
+	margin-left: 4%;
+	margin-top: 50px;
+}
+
+.macho-refs
+{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 20px;
+	color: #bfbfbf;
+	margin-top: 35px;
+	margin-left: 65%;
+}
+
+.content
+{
+	margin-top: 5%;
+}
+
+.major-text
+{
+	text-align: center;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 32px;
+	color: #cef5ff;
+}
+
+.minor-text
+{
+	text-align: center;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 26px;
+	color: #cef5ff;
+}
+
+.text
+{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 20px;
+	color: #cef5ff;
+	margin-left: 10%;
+}
+
+.features
+{
+	display: flex;
+}
+
+.macho-feature-icon
+{
+	margin-left: 10%;
+}
+
+.features-text
+{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 20px;
+	color: #cef5ff;
+	margin-left: 2%;
+}
+
+.footer
+{
+	margin-top: 10%;
+	padding: 1%;
+	background-color: #0e0e0e;
+}
+
+.footer-text
+{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 16px;
+	color: #81989e;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #222;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #333;
+}
