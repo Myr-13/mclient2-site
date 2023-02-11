@@ -72,14 +72,9 @@ a:active { text-decoration: none; }
 	margin-left: 10%;
 }
 
-.features
-{
-	display: flex;
-}
-
 .macho-feature-icon
 {
-	margin-left: 10%;
+	margin-left: 5%;
 }
 
 .features-text
