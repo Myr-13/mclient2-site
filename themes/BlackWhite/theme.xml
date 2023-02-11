@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MachoTheme>
+	<ThemeName>blacknwhite</ThemeName> <!-- Name of theme -->
+	<ThemeVersion>1.0</ThemeVersion> <!-- Version of theme -->
+	<ThemeCreator>Wrecked</ThemeCreator> <!-- Creator of theme -->
+
+	<NewMenu>
+		<PageColor>
+			<Color r="0" g="0" b="0" a="255" rainbow="false" rainbow_speed="0"/>
+		</PageColor>
+		<PageHeaderColor>
+			<Color r="235" g="235" b="234" a="255" rainbow="false" rainbow_speed="0"/>
+		</PageHeaderColor>
+		<NoHighColor>
+			<Color r="0" g="0" b="0" a="255" rainbow="false" rainbow_speed="0"/>
+		</NoHighColor>
+		<HighColor>
+			<Color r="235" g="235" b="235" a="255" rainbow="false" rainbow_speed="0"/>
+		</HighColor>
+	</NewMenu>
+
+	<HUD>
+		<FunctionsText>
+			<Pos x="5" y="60"/>
+			<Color r="255" g="255" b="255" a="255" rainbow="false" rainbow_speed="0"/>
+		</FunctionsText>
+	</HUD>
+</MachoTheme>

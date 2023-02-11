@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MachoTheme>
+	<ThemeName>Greeny</ThemeName>
+	<ThemeVersion>1.0</ThemeVersion>
+	<ThemeCreator>Myr</ThemeCreator>
+
+	<NewMenu>
+		<PageColor>
+			<Color r="0" g="60" b="0" a="200" rainbow="false" rainbow_speed="0"/>
+		</PageColor>
+		<PageHeaderColor>
+			<Color r="0" g="120" b="0" a="255" rainbow="false" rainbow_speed="0"/>
+		</PageHeaderColor>
+		<NoHighColor>
+			<Color r="20" g="80" b="20" a="255" rainbow="false" rainbow_speed="0"/>
+		</NoHighColor>
+		<HighColor>
+			<Color r="50" g="150" b="50" a="255" rainbow="false" rainbow_speed="0"/>
+		</HighColor>
+	</NewMenu>
+
+	<HUD>
+		<FunctionsText>
+			<Pos x="5" y="60"/>
+			<Color r="255" g="255" b="255" a="255" rainbow="false" rainbow_speed="0"/>
+		</FunctionsText>
+	</HUD>
+</MachoTheme>

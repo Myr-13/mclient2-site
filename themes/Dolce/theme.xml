@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MachoTheme>
+	<ThemeName>DoliceMilk</ThemeName> <!-- idiotic -->
+	<ThemeVersion>1.0</ThemeVersion> <!-- Version of theme -->
+	<ThemeCreator>Wrecked</ThemeCreator> <!-- Creator of theme -->
+
+	<NewMenu>
+		<PageColor>
+			<Color r="67" g="52" b="40" a="255" rainbow="false" rainbow_speed="10"/>
+		</PageColor>
+		<PageHeaderColor>
+			<Color r="39" g="27" b="17" a="255" rainbow="false" rainbow_speed="0"/>
+		</PageHeaderColor>
+		<NoHighColor>
+			<Color r="116" g="86" b="62" a="255" rainbow="false" rainbow_speed="0"/>
+		</NoHighColor>
+		<HighColor>
+			<Color r="174" g="134" b="101" a="255" rainbow="false" rainbow_speed="0"/>
+		</HighColor>
+	</NewMenu>
+
+	<HUD>
+		<FunctionsText>
+			<Pos x="5" y="60"/>
+			<Color r="255" g="255" b="255" a="255" rainbow="false" rainbow_speed="0"/>
+		</FunctionsText>
+	</HUD>
+</MachoTheme>
