@@ -41,6 +41,7 @@ a:active { text-decoration: none; }
 	color: #bfbfbf;
 	margin-top: 35px;
 	margin-left: 65%;
+	white-space: nowrap;
 }
 
 .content
