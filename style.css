@@ -1,5 +1,6 @@
 body
 {
+
 	margin: 0px;
 	padding: 0px;
 	background-color: #131313;
@@ -12,6 +13,10 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
+
+html {
+  scroll-behavior: smooth;
+}
 
 .header
 {
@@ -70,7 +75,7 @@ a:active { text-decoration: none; }
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size: 20px;
 	color: #cef5ff;
-	margin-left: 10%;
+	text-align: center;
 }
 
 .pricing {
@@ -123,8 +128,9 @@ a:active { text-decoration: none; }
 }
 
 .pricing--sonam .pricing__price {
-	color: #E06060;
-	font-size: 1.75em;
+	font-family: "Lucida Console", "Roboto", monospace;
+	color: #cef5ff;
+	font-size: 1.50em;
 	padding: 1em 0 0.75em;
 }
 
@@ -142,7 +148,7 @@ a:active { text-decoration: none; }
 	margin-top: auto;
 	padding: 0.75em 2em;
 	border-radius: 5px;
-	background: #E06060;
+	background: #cef5ff;
 	transition: background 0.3s;
 }
 
@@ -157,6 +163,7 @@ a:active { text-decoration: none; }
 }
 
 .price {
+	font-family: "Lucida Console", "Courier New", monospace;
 	display: grid;
 	background-color: #222;
 	border-radius: 15%;
@@ -181,7 +188,8 @@ a:active { text-decoration: none; }
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size: 20px;
 	color: #cef5ff;
-	margin-left: 2%;
+	margin-left: 1.1%;
+	margin-top: 1%;
 }
 
 .footer
@@ -203,8 +211,6 @@ a:active { text-decoration: none; }
 	background-color: #222222;
 	margin-top: 5%;
 	padding-bottom: 2%;
-	border-end-end-radius: 3%;
-	border-bottom-left-radius: 3%;
 }
 
 ::-webkit-scrollbar {
