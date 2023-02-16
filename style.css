@@ -40,7 +40,7 @@ a:active { text-decoration: none; }
 	font-size: 20px;
 	color: #bfbfbf;
 	margin-top: 35px;
-	margin-left: 65%;
+	margin-left: 1em;
 	white-space: nowrap;
 }
 
@@ -196,6 +196,15 @@ a:active { text-decoration: none; }
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size: 16px;
 	color: #81989e;
+}
+
+.theme
+{
+	background-color: #222222;
+	margin-top: 5%;
+	padding-bottom: 2%;
+	border-end-end-radius: 3%;
+	border-bottom-left-radius: 3%;
 }
 
 ::-webkit-scrollbar {
