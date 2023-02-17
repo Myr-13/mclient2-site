@@ -1,5 +1,6 @@
 body
 {
+
 	margin: 0px;
 	padding: 0px;
 	background-color: #131313;
@@ -12,6 +13,10 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
+
+html {
+  scroll-behavior: smooth;
+}
 
 .header
 {
@@ -44,6 +49,34 @@ a:active { text-decoration: none; }
 	white-space: nowrap;
 }
 
+.registerbttn
+{
+	background-color: #181818;
+	padding: 15px;
+	color: #757575;
+	border-color: #0e0e0e;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 4px;
+	margin-left: 9em;
+	margin-top: 3px;
+}
+
+.textbox
+{
+	outline-color: #cef5ff;
+	display: flex;
+	color: #cef5ff;
+	border-color: #0b0b0b;
+	background-color: #181818;
+	padding: 1em;
+	width: 300px;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 3px;
+	margin-top: 5%;
+}
+
 .content
 {
 	margin-top: 2%;
@@ -70,7 +103,7 @@ a:active { text-decoration: none; }
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size: 20px;
 	color: #cef5ff;
-	margin-left: 10%;
+	text-align: center;
 }
 
 .pricing {
@@ -123,8 +156,9 @@ a:active { text-decoration: none; }
 }
 
 .pricing--sonam .pricing__price {
-	color: #E06060;
-	font-size: 1.75em;
+	font-family: "Lucida Console", "Roboto", monospace;
+	color: #cef5ff;
+	font-size: 1.50em;
 	padding: 1em 0 0.75em;
 }
 
@@ -142,7 +176,7 @@ a:active { text-decoration: none; }
 	margin-top: auto;
 	padding: 0.75em 2em;
 	border-radius: 5px;
-	background: #E06060;
+	background: #cef5ff;
 	transition: background 0.3s;
 }
 
@@ -157,6 +191,7 @@ a:active { text-decoration: none; }
 }
 
 .price {
+	font-family: "Lucida Console", "Courier New", monospace;
 	display: grid;
 	background-color: #222;
 	border-radius: 15%;
@@ -181,12 +216,16 @@ a:active { text-decoration: none; }
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size: 20px;
 	color: #cef5ff;
-	margin-left: 2%;
+	margin-left: 1.1%;
+	margin-top: 1%;
 }
 
 .footer
 {
-	margin-top: 10%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	padding: 1%;
 	background-color: #0e0e0e;
 }
@@ -203,8 +242,6 @@ a:active { text-decoration: none; }
 	background-color: #222222;
 	margin-top: 5%;
 	padding-bottom: 2%;
-	border-end-end-radius: 3%;
-	border-bottom-left-radius: 3%;
 }
 
 ::-webkit-scrollbar {
