@@ -3,7 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>MClient2</title>
-	<link rel="stylesheet" href="style.css">
+	<script src="login.js"></script>
+	<link rel="stylesheet" href="../style.css">
+	<link rel="icon" href="../macho.png">
 </head>
 <body>
 	<div class="header">
@@ -11,12 +13,13 @@
 	</div>
 	<div class="content" style="display: flex; justify-content: center;">
         <div>
-            <input type="text" class="textbox" placeholder="Username" minlength="3" maxlength="24" required>
-		    <input type="text" class="textbox" placeholder="Password" minlength="6" maxlength="15" style="margin-top:0px;" required>
+            <input id="login-text" type="text" class="textbox" placeholder="Username" minlength="3" maxlength="24" required>
+		    <input id="password-text" type="text" class="textbox" placeholder="Password" minlength="6" maxlength="24" style="margin-top:0px;" required>
 		    <button type="submit" class="registerbttn">Register</button>
+			<button type="submit" class="loginbttn">Login</button>
         </div>
 	</div>
-	<div class="footer">
+	<div class="footer-bottom">
 		<h1 class="footer-text">Myr. Все права захешированны. 2021-2023</h1>
 		<h1 class="footer-text">Noby you here? D:</h1>
 	</div>

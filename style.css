@@ -58,7 +58,20 @@ html {
 	border-style: solid;
 	border-radius: 3px;
 	border-width: 4px;
-	margin-left: 9em;
+	/* margin-left: 9em; */
+	margin-top: 3px;
+}
+
+.loginbttn
+{
+	background-color: #181818;
+	padding: 15px;
+	color: #757575;
+	border-color: #0e0e0e;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 4px;
+	margin-left: 13.07em;
 	margin-top: 3px;
 }
 
@@ -103,7 +116,8 @@ html {
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size: 20px;
 	color: #cef5ff;
-	text-align: center;
+	margin-left: 6em;
+	/* text-align: center; */
 }
 
 .pricing {
@@ -220,12 +234,18 @@ html {
 	margin-top: 1%;
 }
 
-.footer
+.footer-bottom
 {
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
+	padding: 1%;
+	background-color: #0e0e0e;
+}
+
+.footer
+{
 	padding: 1%;
 	background-color: #0e0e0e;
 }
@@ -248,12 +268,11 @@ html {
 	width: 15px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
 	background: #222;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
 	background: #333;
+	border-radius: 10px;
 }
