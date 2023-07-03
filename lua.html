@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>MClient2</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="lua.css">
 	<link rel="icon" href="macho.png">
 </head>
 <body>
@@ -25,8 +26,102 @@
 		</div>
 	</div>
 	<div class="content">
-		<h1 class="major-text">Lua API для Macho client v2</h1>
-        <h1 class="minor-text">Тут пока ничего нет, кроме кривого оформления :(</h1>
+		<h1 class="major-text">Хреновая lua документация (НЕ ИСПОЛЬЗУЙ ЭТО)</h1>
+		<h1 class="minor-text">Namespaces</h1>
+		<h1 class="text">- Engine</h1>
+		<h1 class="text">- Game</h1>
+		<h1 class="text">- vmath</h1>
+		<h1 class="minor-text">Classes</h1>
+		<h1 class="minor-text">vec2</h1>
+		<h1 class="text">> operators:</h1>
+		<h1 class="text">-- vec2 + vec2</h1>
+		<h1 class="text">-- vec2 - vec2</h1>
+		<h1 class="text">-- vec2 * vec2</h1>
+		<h1 class="text">-- vec2 / vec2</h1>
+		<h1 class="text">-- vec2 == vec2</h1>
+		<h1 class="text">-- tostring(vec2)</h1>
+		<h1 class="text">> fields:</h1>
+		<h1 class="text">-- x: number</h1>
+		<h1 class="text">-- y: number</h1>
+		<br>
+
+		<h1 class="minor-text">vec4</h1>
+		<h1 class="text">> operators:</h1>
+		<h1 class="text">-- vec4 + vec4</h1>
+		<h1 class="text">-- vec4 - vec4</h1>
+		<h1 class="text">-- vec4 * vec4</h1>
+		<h1 class="text">-- vec4 / vec4</h1>
+		<h1 class="text">-- vec4 == vec4</h1>
+		<h1 class="text">-- tostring(vec4)</h1>
+		<h1 class="text">> fields:</h1>
+		<h1 class="text">-- r: number</h1>
+		<h1 class="text">-- g: number</h1>
+		<h1 class="text">-- b: number</h1>
+		<h1 class="text">-- a: number</h1>
+		<h1 class="text">-- x: number</h1>
+		<h1 class="text">-- y: number</h1>
+		<h1 class="text">-- z: number</h1>
+		<h1 class="text">-- w: number</h1>
+		<br>
+
+		<h1 class="minor-text">IClient</h1>
+		<h1 class="text">> fields:</h1>
+		<h1 class="text">-- Tick: number</h1>
+		<h1 class="text">-- TickSpeed: number</h1>
+		<h1 class="text">-- IntraGameTick: number</h1>
+		<h1 class="text">-- PredIntraGameTick: number</h1>
+		<h1 class="text">-- PredGameTick: number</h1>
+		<h1 class="text">-- LocalTime: number</h1>
+		<h1 class="text">> functions:</h1>
+		<h1 class="text">-- Connect(address: string)</h1>
+		<h1 class="text">-- Disconnect()</h1>
+		<h1 class="text">-- DummyConnect()</h1>
+		<h1 class="text">-- DummyDisconnect()</h1>
+		<h1 class="text">-- DummyConnected() -> boolean</h1>
+		<h1 class="text">-- RconAuth(user: string, password: string)</h1>
+		<h1 class="text">-- RconAuthed() -> boolean</h1>
+		<h1 class="text">-- Rcon(cmd: string)</h1>
+		<h1 class="text">-- State() -> number</h1>
+		<br>
+
+		<h1 class="minor-text">CChat</h1>
+		<h1 class="text">> functions:</h1>
+		<h1 class="text">-- Say(team: number, text: string)</h1>
+		<h1 class="text">-- AddLine(client_id: number, team: number, text: string)</h1>
+
+		<h1 class="minor-text">IConsole</h1>
+		<h1 class="text">> functions:</h1>
+		<h1 class="text">-- Print(ya hz che tyt lol)</h1>
+		<h1 class="text">-- LineIsValid(line: string) -> boolean</h1>
+		<h1 class="text">-- ExecuteLine(line: string)</h1>
+
+		<h1 class="minor-text">IEmoticon</h1>
+		<h1 class="text">> functions:</h1>
+		<h1 class="text">-- Send(emote: number)</h1>
+		<h1 class="text">-- SendEye(eye: number)</h1>
+
+		<h1 class="minor-text">CCollision</h1>
+		<h1 class="text">> fields:</h1>
+		<h1 class="text">-- GetMapWidth: number</h1>
+		<h1 class="text">-- GetMapHeight: number</h1>
+		<h1 class="text">> functions:</h1>
+		<h1 class="text">-- GetTile(x: number, y: number) -> number</h1>
+		<h1 class="text">-- GetTileFront(x: number, y: number) -> number</h1>
+		
+
+		<h1 class="minor-text">Functions</h1>
+		<h1 class="minor-text">vmath.rotate</h1>
+		<h1 class="text">> arguments:</h1>
+		<h1 class="text">-- a: vec2 (vector to rotate)</h1>
+		<h1 class="text">-- angle: number</h1>
+		<h1 class="text">> example:</h1>
+		<h1 class="text">local a = vec2(10, 10)</h1>
+		<h1 class="text">local rotated = vmath.rotate(a, 3.1415 / 2) -- Rotate to 180 degrees</h1>
+		<h1 class="text">print(tostring())</h1>
+
+		<script>
+			Prism.highlightAll();
+		</script>
 	</div>
 	<div class="footer">
 		<h1 class="footer-text">Myr. Все права захешированны. 2021-2023</h1>
