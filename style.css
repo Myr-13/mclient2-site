@@ -138,16 +138,6 @@ html {
 	flex: 0 1 330px;
 }
 
-.pricing__action {
-	color: inherit;
-	border: none;
-	background: none;
-}
-
-.pricing__action:focus {
-	outline: none;
-}
-
 .pricing--sonam .pricing__item {
 	margin: 1.5em;
 	padding: 0.1em;
